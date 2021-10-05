@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41EF40FF270619F000C21DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF40FE270619F000C21DA2 /* AppDelegate.swift */; };
+		41EF4101270619F000C21DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4100270619F000C21DA2 /* SceneDelegate.swift */; };
+		41EF4106270619F000C21DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EF4104270619F000C21DA2 /* Main.storyboard */; };
+		41EF4109270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4107270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodeld */; };
+		41EF410B270619F400C21DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EF410A270619F400C21DA2 /* Assets.xcassets */; };
+		41EF410E270619F400C21DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EF410C270619F400C21DA2 /* LaunchScreen.storyboard */; };
+		41EF4119270619F400C21DA2 /* RunKeeper_TrophyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4118270619F400C21DA2 /* RunKeeper_TrophyTests.swift */; };
+		41EF4123270619F400C21DA2 /* RunKeeper_TrophyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4122270619F400C21DA2 /* RunKeeper_TrophyUITests.swift */; };
+		41EF4125270619F400C21DA2 /* RunKeeper_TrophyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4124270619F400C21DA2 /* RunKeeper_TrophyUITestsLaunchTests.swift */; };
+		41EF413227061A8100C21DA2 /* UserPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF413127061A8100C21DA2 /* UserPageVC.swift */; };
+		41EF413427061ADA00C21DA2 /* RecordandVirtualRaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF413327061ADA00C21DA2 /* RecordandVirtualRaceVC.swift */; };
+		41EF413A270A89FF00C21DA2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4139270A89FF00C21DA2 /* MyCollectionViewCell.swift */; };
+		41EF413C270A909C00C21DA2 /* Image+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF413B270A909C00C21DA2 /* Image+Crop.swift */; };
+		41EF413E270A9BDF00C21DA2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF413D270A9BDF00C21DA2 /* Fonts.swift */; };
+		41EF4140270A9F5600C21DA2 /* String+HexStringToRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF413F270A9F5600C21DA2 /* String+HexStringToRGB.swift */; };
+		41EF4142270AB0EE00C21DA2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4141270AB0EE00C21DA2 /* Colors.swift */; };
+		41EF4144270AB1D400C21DA2 /* AchievementValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4143270AB1D400C21DA2 /* AchievementValues.swift */; };
+		41EF4147270B00D800C21DA2 /* CustomNavBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EF4146270B00D800C21DA2 /* CustomNavBarVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41EF4115270619F400C21DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EF40F3270619F000C21DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EF40FA270619F000C21DA2;
+			remoteInfo = "RunKeeper Trophy";
+		};
+		41EF411F270619F400C21DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EF40F3270619F000C21DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EF40FA270619F000C21DA2;
+			remoteInfo = "RunKeeper Trophy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41EF40FB270619F000C21DA2 /* RunKeeper Trophy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunKeeper Trophy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EF40FE270619F000C21DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41EF4100270619F000C21DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41EF4105270619F000C21DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41EF4108270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunKeeper_Trophy.xcdatamodel; sourceTree = "<group>"; };
+		41EF410A270619F400C21DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41EF410D270619F400C21DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41EF410F270619F400C21DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EF4114270619F400C21DA2 /* RunKeeper TrophyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunKeeper TrophyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EF4118270619F400C21DA2 /* RunKeeper_TrophyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunKeeper_TrophyTests.swift; sourceTree = "<group>"; };
+		41EF411E270619F400C21DA2 /* RunKeeper TrophyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunKeeper TrophyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EF4122270619F400C21DA2 /* RunKeeper_TrophyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunKeeper_TrophyUITests.swift; sourceTree = "<group>"; };
+		41EF4124270619F400C21DA2 /* RunKeeper_TrophyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunKeeper_TrophyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41EF413127061A8100C21DA2 /* UserPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageVC.swift; sourceTree = "<group>"; };
+		41EF413327061ADA00C21DA2 /* RecordandVirtualRaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordandVirtualRaceVC.swift; sourceTree = "<group>"; };
+		41EF4139270A89FF00C21DA2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		41EF413B270A909C00C21DA2 /* Image+Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Crop.swift"; sourceTree = "<group>"; };
+		41EF413D270A9BDF00C21DA2 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		41EF413F270A9F5600C21DA2 /* String+HexStringToRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HexStringToRGB.swift"; sourceTree = "<group>"; };
+		41EF4141270AB0EE00C21DA2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		41EF4143270AB1D400C21DA2 /* AchievementValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementValues.swift; sourceTree = "<group>"; };
+		41EF4146270B00D800C21DA2 /* CustomNavBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41EF40F8270619F000C21DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF4111270619F400C21DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF411B270619F400C21DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41EF40F2270619F000C21DA2 = {
+			isa = PBXGroup;
+			children = (
+				41EF40FD270619F000C21DA2 /* RunKeeper Trophy */,
+				41EF4117270619F400C21DA2 /* RunKeeper TrophyTests */,
+				41EF4121270619F400C21DA2 /* RunKeeper TrophyUITests */,
+				41EF40FC270619F000C21DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41EF40FC270619F000C21DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41EF40FB270619F000C21DA2 /* RunKeeper Trophy.app */,
+				41EF4114270619F400C21DA2 /* RunKeeper TrophyTests.xctest */,
+				41EF411E270619F400C21DA2 /* RunKeeper TrophyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41EF40FD270619F000C21DA2 /* RunKeeper Trophy */ = {
+			isa = PBXGroup;
+			children = (
+				41EF4148270C256B00C21DA2 /* ViewController */,
+				41EF4149270C263200C21DA2 /* Tool */,
+				41EF4145270AB82600C21DA2 /* Resources */,
+				41EF414A270C267400C21DA2 /* Supports */,
+				41EF4104270619F000C21DA2 /* Main.storyboard */,
+				41EF410A270619F400C21DA2 /* Assets.xcassets */,
+				41EF410C270619F400C21DA2 /* LaunchScreen.storyboard */,
+				41EF410F270619F400C21DA2 /* Info.plist */,
+				41EF4107270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodeld */,
+			);
+			path = "RunKeeper Trophy";
+			sourceTree = "<group>";
+		};
+		41EF4117270619F400C21DA2 /* RunKeeper TrophyTests */ = {
+			isa = PBXGroup;
+			children = (
+				41EF4118270619F400C21DA2 /* RunKeeper_TrophyTests.swift */,
+			);
+			path = "RunKeeper TrophyTests";
+			sourceTree = "<group>";
+		};
+		41EF4121270619F400C21DA2 /* RunKeeper TrophyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41EF4122270619F400C21DA2 /* RunKeeper_TrophyUITests.swift */,
+				41EF4124270619F400C21DA2 /* RunKeeper_TrophyUITestsLaunchTests.swift */,
+			);
+			path = "RunKeeper TrophyUITests";
+			sourceTree = "<group>";
+		};
+		41EF4145270AB82600C21DA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41EF4143270AB1D400C21DA2 /* AchievementValues.swift */,
+				41EF413D270A9BDF00C21DA2 /* Fonts.swift */,
+				41EF4141270AB0EE00C21DA2 /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41EF4148270C256B00C21DA2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41EF413127061A8100C21DA2 /* UserPageVC.swift */,
+				41EF413327061ADA00C21DA2 /* RecordandVirtualRaceVC.swift */,
+				41EF4146270B00D800C21DA2 /* CustomNavBarVC.swift */,
+				41EF4139270A89FF00C21DA2 /* MyCollectionViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		41EF4149270C263200C21DA2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				41EF413B270A909C00C21DA2 /* Image+Crop.swift */,
+				41EF413F270A9F5600C21DA2 /* String+HexStringToRGB.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		41EF414A270C267400C21DA2 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				41EF40FE270619F000C21DA2 /* AppDelegate.swift */,
+				41EF4100270619F000C21DA2 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41EF40FA270619F000C21DA2 /* RunKeeper Trophy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EF4128270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper Trophy" */;
+			buildPhases = (
+				41EF40F7270619F000C21DA2 /* Sources */,
+				41EF40F8270619F000C21DA2 /* Frameworks */,
+				41EF40F9270619F000C21DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RunKeeper Trophy";
+			productName = "RunKeeper Trophy";
+			productReference = 41EF40FB270619F000C21DA2 /* RunKeeper Trophy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41EF4113270619F400C21DA2 /* RunKeeper TrophyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EF412B270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper TrophyTests" */;
+			buildPhases = (
+				41EF4110270619F400C21DA2 /* Sources */,
+				41EF4111270619F400C21DA2 /* Frameworks */,
+				41EF4112270619F400C21DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EF4116270619F400C21DA2 /* PBXTargetDependency */,
+			);
+			name = "RunKeeper TrophyTests";
+			productName = "RunKeeper TrophyTests";
+			productReference = 41EF4114270619F400C21DA2 /* RunKeeper TrophyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41EF411D270619F400C21DA2 /* RunKeeper TrophyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EF412E270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper TrophyUITests" */;
+			buildPhases = (
+				41EF411A270619F400C21DA2 /* Sources */,
+				41EF411B270619F400C21DA2 /* Frameworks */,
+				41EF411C270619F400C21DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EF4120270619F400C21DA2 /* PBXTargetDependency */,
+			);
+			name = "RunKeeper TrophyUITests";
+			productName = "RunKeeper TrophyUITests";
+			productReference = 41EF411E270619F400C21DA2 /* RunKeeper TrophyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41EF40F3270619F000C21DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					41EF40FA270619F000C21DA2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					41EF4113270619F400C21DA2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 41EF40FA270619F000C21DA2;
+					};
+					41EF411D270619F400C21DA2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 41EF40FA270619F000C21DA2;
+					};
+				};
+			};
+			buildConfigurationList = 41EF40F6270619F000C21DA2 /* Build configuration list for PBXProject "RunKeeper Trophy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41EF40F2270619F000C21DA2;
+			productRefGroup = 41EF40FC270619F000C21DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41EF40FA270619F000C21DA2 /* RunKeeper Trophy */,
+				41EF4113270619F400C21DA2 /* RunKeeper TrophyTests */,
+				41EF411D270619F400C21DA2 /* RunKeeper TrophyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EF40F9270619F000C21DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF410E270619F400C21DA2 /* LaunchScreen.storyboard in Resources */,
+				41EF410B270619F400C21DA2 /* Assets.xcassets in Resources */,
+				41EF4106270619F000C21DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF4112270619F400C21DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF411C270619F400C21DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41EF40F7270619F000C21DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF413227061A8100C21DA2 /* UserPageVC.swift in Sources */,
+				41EF4142270AB0EE00C21DA2 /* Colors.swift in Sources */,
+				41EF4144270AB1D400C21DA2 /* AchievementValues.swift in Sources */,
+				41EF40FF270619F000C21DA2 /* AppDelegate.swift in Sources */,
+				41EF413E270A9BDF00C21DA2 /* Fonts.swift in Sources */,
+				41EF4147270B00D800C21DA2 /* CustomNavBarVC.swift in Sources */,
+				41EF413A270A89FF00C21DA2 /* MyCollectionViewCell.swift in Sources */,
+				41EF4101270619F000C21DA2 /* SceneDelegate.swift in Sources */,
+				41EF413C270A909C00C21DA2 /* Image+Crop.swift in Sources */,
+				41EF4109270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodeld in Sources */,
+				41EF413427061ADA00C21DA2 /* RecordandVirtualRaceVC.swift in Sources */,
+				41EF4140270A9F5600C21DA2 /* String+HexStringToRGB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF4110270619F400C21DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF4119270619F400C21DA2 /* RunKeeper_TrophyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF411A270619F400C21DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF4125270619F400C21DA2 /* RunKeeper_TrophyUITestsLaunchTests.swift in Sources */,
+				41EF4123270619F400C21DA2 /* RunKeeper_TrophyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41EF4116270619F400C21DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EF40FA270619F000C21DA2 /* RunKeeper Trophy */;
+			targetProxy = 41EF4115270619F400C21DA2 /* PBXContainerItemProxy */;
+		};
+		41EF4120270619F400C21DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EF40FA270619F000C21DA2 /* RunKeeper Trophy */;
+			targetProxy = 41EF411F270619F400C21DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41EF4104270619F000C21DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EF4105270619F000C21DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41EF410C270619F400C21DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EF410D270619F400C21DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41EF4126270619F400C21DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41EF4127270619F400C21DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41EF4129270619F400C21DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RunKeeper Trophy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-Trophy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41EF412A270619F400C21DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RunKeeper Trophy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-Trophy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41EF412C270619F400C21DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-TrophyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunKeeper Trophy.app/RunKeeper Trophy";
+			};
+			name = Debug;
+		};
+		41EF412D270619F400C21DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-TrophyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunKeeper Trophy.app/RunKeeper Trophy";
+			};
+			name = Release;
+		};
+		41EF412F270619F400C21DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-TrophyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RunKeeper Trophy";
+			};
+			name = Debug;
+		};
+		41EF4130270619F400C21DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWTTY6AAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoYang0301.RunKeeper-TrophyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RunKeeper Trophy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41EF40F6270619F000C21DA2 /* Build configuration list for PBXProject "RunKeeper Trophy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF4126270619F400C21DA2 /* Debug */,
+				41EF4127270619F400C21DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EF4128270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper Trophy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF4129270619F400C21DA2 /* Debug */,
+				41EF412A270619F400C21DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EF412B270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper TrophyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF412C270619F400C21DA2 /* Debug */,
+				41EF412D270619F400C21DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EF412E270619F400C21DA2 /* Build configuration list for PBXNativeTarget "RunKeeper TrophyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF412F270619F400C21DA2 /* Debug */,
+				41EF4130270619F400C21DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41EF4107270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41EF4108270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodel */,
+			);
+			currentVersion = 41EF4108270619F000C21DA2 /* RunKeeper_Trophy.xcdatamodel */;
+			path = RunKeeper_Trophy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41EF40F3270619F000C21DA2 /* Project object */;
+}
